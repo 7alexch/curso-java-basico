@@ -58,8 +58,8 @@ public class usandoSwitchCase {
 			default: System.out.println("Não é um dia da semana.");
 		}
 		
-		
-
 	}
 
 }
+
+

@@ -8,6 +8,7 @@ public class LoopWhile {
 		
 		int max = 10;
 		
+		
 		System.out.println("Contando até " + max);
 		
 		while (i <= max) {
@@ -23,6 +24,21 @@ public class LoopWhile {
 		} while (i < 11);  // faz parar em 15
 		
 		System.out.println(i);
+		
+		
+		int count = 1000;
+		
+		System.out.println("O valor de count é: " + count);
+		
+		do {
+			System.out.println("Contando de 1000 até 0: " + count);
+			count--;
+		}
+		
+		while(count > 0);
+		
+		System.out.println(count);
+		
 	}
 
 }

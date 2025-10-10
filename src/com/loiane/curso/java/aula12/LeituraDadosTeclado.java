@@ -40,13 +40,13 @@ public class LeituraDadosTeclado {
 		System.out.println("Qual seu nome? Qual a sua idade? Quantidade de filhos? Qual a sua altura? Tem pets? ");
 		
 		String nome = scan.next();
-		int idade = scan.nextInt();
+		int idade01 = scan.nextInt();
 		int qtdFilhos = scan.nextInt();
 		float altura = scan.nextFloat();
 		boolean temPets = scan.nextBoolean();
 		
 		System.out.println("Qual o seu nome completo? " + nome);
-		System.out.println("Qual a sua idade? " + idade);
+		System.out.println("Qual a sua idade? " + idade01);
 		System.out.println("Quantos filhos você tem? " + qtdFilhos);
 		System.out.println("Qual a sua altura? " + altura);
 		System.out.println("Tem pets?" + temPets);
